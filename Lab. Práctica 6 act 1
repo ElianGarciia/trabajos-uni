@@ -1,0 +1,22 @@
+#define _CRT_SECURE_NO_WARNINGS
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int i=1, num, suma;
+
+    printf("\n Ingrese un numero entero positivo: ");
+    scanf("%d",&suma);
+
+    while(i<=101){
+        suma += i;
+        i+= 3;
+    }
+
+    printf("el resultado del numero entero positivo y la suma desde el 1 al 101 es de: %d", suma);
+    
+    system("pause");
+    return 0;
+}
